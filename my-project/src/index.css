@@ -1,11 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 body{
-    background: url(../src/Images/home/background-home-desktop.jpg);
+    background: url(../home/background-home-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+  
 }
